@@ -16,7 +16,9 @@ for i in range(1, 21)
 # 2. Given a list of fruits, use a for loop to print only the fruits that have more than 5 letters.
 fruits = ["apple", "kiwi", "banana", "pear", "pineapple", "plum"]
 # Write your code below:
-
+for i in fruits:
+  if len(i) < 4:
+    print(1)
 
 
 # ADVANCED LEVEL
